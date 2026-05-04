@@ -1,0 +1,13 @@
+# Local previews / scratch
+*_preview.html
+plot_preview.png
+prev*.png
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
