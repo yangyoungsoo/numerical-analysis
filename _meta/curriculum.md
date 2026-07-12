@@ -73,3 +73,13 @@
 Ch 4 보간, Ch 5 적분, Ch 6 spline, Ch 7 ODE, Ch 8 LU/SVD, Ch 9 최소제곱, Ch 10 Monte Carlo, Ch 11 BVP, Ch 12 PDE, Ch 13 최적화 — 같은 호흡으로 절(section) 단위 진행.
 
 > 스케줄러가 진도가 끝까지 도달하면, 이 파일을 다시 확장하면 됨.
+
+## 챕터 15 — Sequential Decision Making (확장 사례연구)
+
+### Day 68 — §15.1 Multi-Armed Bandits
+* ε-greedy vs 순수 탐욕: 상수 탐색의 선형 리그렛과 고착 실패
+* UCB1: 신뢰상한 기반 자동 감쇠 탐색과 $R_T = O(\log T)$ 대수 리그렛
+* Thompson Sampling: 베이지안 사후분포 표본, 사전 민감도
+
+### Day 69+
+§15.2 문맥적 밴딧 (LinUCB, LinTS), §15.3 비정지 밴딧 (discounting, sliding-window UCB) 등으로 확장.
